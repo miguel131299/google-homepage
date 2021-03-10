@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Start of Header */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav li {
+    list-style: none;
+    padding: 1em;
+
+    font-size: 0.8rem;
+}
+
+
+
+/* Start of Main */
+
+main {
+    margin-top: 11rem;
+    display: flex;    
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#search-bar-container {
+    width: 30%;
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+#search-bar {
+    width: 100%;
+    border-radius: 20px;
+    height: 2rem;
+
+    border-color: rgb(218, 204, 204);
+    border-width: 0.1rem;
+}
+
+#search-bar :active {
+    border: none;
+}
+
+#search-bar:hover {
+    box-shadow: 1px 1px 1px 1px  lightgray;}
+
+#buttons-container {
+    margin-top: 2rem;
+}
+
+#buttons-container button{
+    margin: 0px 5px;
+    padding: 0.5rem;
+    border: none;
+
+    border-radius: 5px;
+
+    background-color: #f8f9fa;
+}
+
+#buttons-container button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+/* Start of Footer */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgb(242, 242, 242);
+}
+
+.gray {
+    color: lightgray;
+}
+
+
+
+
